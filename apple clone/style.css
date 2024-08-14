@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+.page nav{
+    height: 44px;
+    width: 100vw;
+    background-color: #454545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:43px;
+    position: sticky;
+    top: 0px;
+}
+.page nav h4{
+    color: #D0D0D1;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+nav i1{
+    font-size: 17px;
+}
+nav i2, i3{
+    font-size: 16px;
+}
+
+
+/* WHITEBOX STARTS HERE */
+.whitebox{
+    height: 44px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whitebox h4{
+    color: #818182;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.whitebox a{
+    color: #3787D7;
+    text-decoration: none;
+    font-size: 14px;
+}
+.whitebox a:hover{
+    text-decoration: underline;
+}
+
+/* PRO MAX IMAGE STARTS HERE */
+.image1{
+    height: 78vh;
+    width: 100vw;
+    position:relative;
+}
+img{
+    height: auto;
+    width: 100vw;
+}
+.imgtext{
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+    top: 165px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.imgtext a{
+    text-decoration: none;
+    color: #3790e2;
+    font-size: 21px;
+    font-weight: 500;
+}
+.imgtext a:hover {
+    text-decoration: underline;
+}
+
+/* NORMAL IPHONE IMAGE STARTS GERE */
+.img2{
+    height: 78vh;
+    width: 100vw;
+    position:relative;
+}
+.img2 img{
+    height: auto;
+    width: 100vw;
+}
+.imgtext2{
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+    top: 165px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.imgtext2 a{
+    text-decoration: none;
+    color: #3790e2;
+    font-size: 21px;
+    font-weight: 500;
+}
+.imgtext2 a:hover{
+    text-decoration: underline;
+}
+
+/* MACBOOK IMAGES START HERE */
+.img3{
+    height: 78vh;
+    width: 100vw;
+    position:relative;
+}
+.img3 img{
+    height: auto;
+    width: 100vw;
+}
+.imgtext3{
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+    top: 165px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.imgtext3 a{
+    text-decoration: none;
+    color: #3790e2;
+    font-size: 21px;
+    font-weight: 500;
+}
+.imgtext3 a:hover{
+    text-decoration: underline;
+}
